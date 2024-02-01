@@ -6,11 +6,8 @@ plugins {
 
 publishing {
 	publications {
-		maven(MavenPublication) {
+		mavenJava(MavenPublication) {
 			from components.java
-			groupId = 'com.ys.infrastructure'
-			artifactId = 'infrastructure'
-			version = '0.1'
 		}
 	}
 }
