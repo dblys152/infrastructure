@@ -4,8 +4,19 @@ plugins {
 	id 'io.freefair.lombok' version '8.4'
 }
 
+publishing {
+	publications {
+		maven(MavenPublication) {
+			from components.java
+			groupId = 'com.github.dblys152'
+			artifactId = 'infrastructure'
+			version = '0.0.7'
+		}
+	}
+}
+
 group = 'com.github.dblys152'
-version = '0.0.6'
+version = '1.0.0'
 
 java {
 	sourceCompatibility = '17'
