@@ -8,14 +8,14 @@ publishing {
 	publications {
 		maven(MavenPublication) {
 			from components.java
-			groupId = 'com.github.dblys152'
+			groupId = 'com.ys.infrastructure'
 			artifactId = 'infrastructure'
-			version = '0.0.7'
+			version = '0.1'
 		}
 	}
 }
 
-group = 'com.github.dblys152'
+group = 'com.ys.infrastructure'
 version = '1.0.0'
 
 java {
@@ -25,7 +25,6 @@ java {
 
 repositories {
 	mavenCentral()
-	maven { url 'https://jitpack.io' }
 }
 
 dependencies {

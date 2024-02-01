@@ -1,4 +1,4 @@
-package com.github.dblys152.infrastructure.exception;
+package com.ys.infrastructure.exception;
 
 public class AccessDeniedException extends RuntimeException {
 
