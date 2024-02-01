@@ -5,6 +5,7 @@ plugins {
 }
 
 group = 'com.github.dblys152'
+version = '0.0.6'
 
 java {
 	sourceCompatibility = '17'
