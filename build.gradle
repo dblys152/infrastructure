@@ -30,7 +30,7 @@ dependencies {
 	implementation 'org.glassfish:jakarta.el:4.0.2'
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.2'
 	implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.15.2'
-	implementation 'com.fasterxml.uuid:java-uuid-generator:4.1.0'
+	implementation 'com.github.f4b6a3:tsid-creator:5.2.6'
 	implementation 'org.apache.commons:commons-lang3:3.13.0'
 	implementation 'commons-validator:commons-validator:1.7'
 
