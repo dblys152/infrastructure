@@ -4,8 +4,7 @@
 
 ### Using The Library
 1. maven { url 'https://jitpack.io' } 추가
-
-
+######
     allprojects {
         repositories {
             mavenCentral()
@@ -14,9 +13,7 @@
     }
 
 2. 의존성 추가
-
-    
+######
     dependencies {
         implementation 'com.github.dblys152:infrastructure:1.0.5'
     }
-
