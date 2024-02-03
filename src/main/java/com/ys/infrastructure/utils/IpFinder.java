@@ -1,11 +1,8 @@
 package com.ys.infrastructure.utils;
 
 import jakarta.servlet.http.HttpServletRequest;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
 
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class IpFinder {
     private static IpFinder instance;
 
